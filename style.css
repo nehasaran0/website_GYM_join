@@ -1,0 +1,358 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#header
+{
+    background-image: url(girl-boxer.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar-nav li a
+{
+    float:right;
+    color: #fff !important;
+}
+
+.navbar-brand img{
+    width:180px;
+    margin-left: 11px;
+    
+}
+.navbar-toggler
+{
+    border:none!important;
+    outline:none!important;
+}
+nav .fa-bars
+{
+    color:#fff !important
+    
+    
+}
+.welcome
+{
+    padding: 40px 100px;
+    margin-top:-140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1:hover{
+    color:#333;
+}
+.welcome .home-btn
+{
+    margin-top:10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+.welcome .btn:focus
+{
+    box-shadow: none;
+}
+/*------------------------------------------about---------------------------*/
+#about
+{
+    
+    padding-top:50px;
+    padding-bottom:50px;
+    
+}
+#about .col-md-6
+{
+    
+    padding: 20px 10px;
+    
+}
+
+
+#about  h3:hover
+{
+   
+     margin: 20px auto;
+     color: lightcoral;
+    
+}
+
+#about .col-md-6 img
+{
+   margin: 40px;  
+    width: 400px;
+    height: 200px;
+}
+
+#about .col-md-6 iframe
+{
+    
+    width:400px;
+    height:200px;
+    right: -200px;
+    
+}
+
+/*-----------------Services------------------------*/
+.services
+{
+    padding: 50px 50px;
+    margin-top:-140px;
+    background-color: rgb(194, 192, 190);
+    box-shadow: 0 0 20px 7px rgba(202, 201, 200, 0.2);
+}
+#services
+{
+    background-color: rgb(196, 192, 187);
+    padding-top: -100px;
+    padding-bottom: 100px;
+    
+}
+#services .col-md-4
+{
+    padding: 10px;
+
+}
+#services .col-md-4 h4:hover
+{
+    padding: 5px;
+    margin-left: 40px;
+    color:mediumslateblue;
+    
+}
+#services .col-md-4 img
+{
+    width: 50px;
+    margin-left: 50px;
+    top: 0;
+    
+    
+}
+#services .col-md-4 
+{
+    padding: 6px;
+    text-align: justify;
+    
+}
+              /*-----------------------------Features-------------*/
+
+#features
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:url(back-ground.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    color: rgb(245, 244, 244);
+}
+#features .col-md-6
+{
+    padding: 20px;
+    
+}
+.feature-box
+{
+    height:15px;
+
+}
+.feature-box .feature-left
+{
+    height: 120px;
+    width: 20%;
+    float: left;
+}
+.feature-box .feature-left .fa
+{
+    padding-top:13px ;
+    font-size: 50px;
+}
+.feature-box .feature-right
+{
+    height: 120px;
+    width: 80%;
+    float: left;
+}
+.feature-box .feature-right h4:hover
+{
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+    color: lightseagreen;
+}
+.feature-box .feature-right p
+{
+    padding-left: 15px;
+    text-align: left;
+
+}
+/*-----------------------testimonials------------*/
+#testimonials
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#testimonials .col-md-4
+{
+    padding:10px 30px;
+}
+#testimonials img
+{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}  
+.review
+{
+    font-size: 16px;
+    padding: 10px 10px 10px 13px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+}  
+.review .fa-twitter
+{
+    color:#013f7e
+    
+}
+#testimonials span
+{
+    color: #013f7e;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+#testimonials h1
+{
+    margin-bottom: 20px;
+    color: #013f7e;
+}
+#testimonials p:hover
+{
+    padding-bottom: 20px;
+    color: mediumaquamarine;
+    
+}
+#testimonials .middle
+{
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+/*-------------------Subscribe------------------*/
+.subscribe
+{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    }
+.subscribe h3 , .subscribe p{
+    color: #fff;
+}
+.subscribe .input-group
+{
+    border-radius:30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 2px;
+}
+.subscribe .form-control
+{
+    border: none;
+    background: transparent;
+
+}
+.subscribe .form-control:focus
+{
+    box-shadow: none;
+    background: transparent;
+    
+    
+}
+.subscribe .input-group-append
+{
+    background-image: linear-gradient( #1c03b5, #5c8bef);
+    border-radius:30px;
+    
+    
+}
+.subscribe .input-group-text
+{
+    background:transparent;
+    border: none;
+    color: #fff;
+}
+.subscribe .btn:focus
+{
+    box-shadow: none;
+}
+
+/*-----------------------footer----------------------*/
+#footer
+{
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #efefef;
+    color:#013f7e;
+}
+#footer-logo
+{
+    width: -5px;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    
+}
+#footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p{
+    font-size: 12px;
+    text-align: left;
+    
+}
+#footer img
+{
+    width:150px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+#footer .city
+{
+   margin-left: 37px;
+}    
+#footer .row.fa
+{
+   padding-right: 20px;
+   font-size: 15px;
+}    
+#footer hr
+{
+   margin-top: 10px;
+}    
+#footer .fa-heart-o
+{
+   color: #cf0ba5;
+   font-size:20px;
+}   
+#footer .copyright
+{
+   margin-bottom: -80px;
+   text-align: center;
+   font-size:15px;
+}   
+
+
+
+
+
+
+
