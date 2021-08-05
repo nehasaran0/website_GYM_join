@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+    background-image:url('https://backgroundcheckall.com/wp-content/uploads/2017/12/admin-login-background-images-8.jpg');
+      background-repeat:no-repeat;
+      width:100%;
+      height:100%;
+    
+}
+h2{
+    text-align:center;
+    font-size:30px;
+    color:pink;
+    font-family:cursive;
+}
+form{
+    width:280px;
+    height:400px;
+    margin:auto;
+    background-color:;
+}
+#fname,#lname,#mobile,#age
+{
+    width:80%;
+    border-radius:10px;
+    border:none;
+    font-size:15px;
+}
+#submit{
+    margin-left:60px;
+    background-color:red;
+    border-radius:10px;
+    width:40%;
+}
+.img{
+    width:150px;
+    height:120px;
+}
+.image{
+    height:30px;
+}
+label{
+    font-family:cursive;
+}
+</style>
+<script>
+    function passvalue()
+    {
+        var name=document.getElementById("fname").value;
+        localStorage.setItem("textvalue",name);
+        var date=document.getElementById("date").value;
+        localStorage.setItem("textvalue1",date);
+        return false;
+    }
+</script>
+<body>
+<div class="image">
+<img class="img" src="logo-icon.png"/>
+</div>
+<h2> Registration Form </h2>
+
+<form action="new.html">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" required ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+  <label for="mobile">Mobile No.:</label><br>
+  <input type="number" id="mobile" name="mobile" required><br> 
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" required><br>
+
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="radio" required>
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="radio" >
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="radio" >
+  <label for="other">Other</label><br>
+  
+  <label for="date">Choose date(starting date)</label><br>
+  <input type="date" id="date" name="date" required><br><br>
+  <input type="submit" value="Submit" id="submit" onclick="passvalue()"><br>
+
+  <input type="checkbox">
+  <label>Remember Me</label>
+</form>

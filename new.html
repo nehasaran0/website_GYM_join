@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2{
+    text-align:center;
+    font-size:40px;
+}
+span{
+    text-align:center;
+    color:green;
+}
+img{
+    height:100px;
+    width:200px;
+    text-align:center;
+    display:block;
+}
+.margin{
+    height:70vh;
+    width:100%;
+    background-color:pink;
+}
+.footer{
+    display:flex;
+}
+</style>
+</head>
+<body>
+<img class="img" src="logo-icon.png"/>
+<div class="margin">
+<h2>Welcome to <span>GYM Fitness Club</span></h2>
+<h1>Thank you for applying <span id="result"></span></h1>
+    
+<h3>Your Traning Strat From <span id="result1"></span></h3>
+<h5> Features </h5>
+<p>Certified Trainers</p>
+
+<p>free consulantant</p>
+
+<p>Flexible Time</p>
+
+<p>30 Days Free Trail</p>
+<div class="footer">
+<h4>Quick Contact</h4>
+<p>0123456789</p>
+<p>contact@website.com</p>
+<p>Jaipur ,Gym Fitness Health Club</p>
+<p>Rajasthan , India</p>
+</div>
+</div>
+<script>
+    document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+    document.getElementById("result1").innerHTML=localStorage.getItem("textvalue1");
+
+</script>
+
+</body>
+</html>
